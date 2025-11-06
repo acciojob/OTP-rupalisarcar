@@ -9,9 +9,17 @@
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-	gap:5px;
+	gap:10px;
 }
 .code{
-	width:20px;
-	
+	width:55px;
+	height:55px;
+	text-align:center;
+	font-size:30px;
+	border:1px solid #ccc;
+	outline:none;
+}
+.code:focus{
+	border-color:#007bff;
+	box-shadow:0 0 5px rgba(0, 123, 255, 0.5);
 }
